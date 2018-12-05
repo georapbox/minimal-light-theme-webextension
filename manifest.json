@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Minimal Light Theme (WebExtension)",
+  "version": "1.0.0",
+  "description": "A minimal light theme for Firefox",
+  "author": "George Raptis",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "theme": {
+    "colors": {
+      "frame": [222, 225, 229],
+      "toolbar": [255, 255, 255],
+      "tab_line": [255, 255, 255]
+    }
+  }
+}
