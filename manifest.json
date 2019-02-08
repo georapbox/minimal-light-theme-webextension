@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Minimal Light Theme (WebExtension)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A minimal light theme for Firefox",
   "author": "George Raptis",
   "icons": {
@@ -10,9 +10,36 @@
   },
   "theme": {
     "colors": {
-      "frame": [222, 225, 229],
-      "toolbar": [255, 255, 255],
-      "tab_line": [255, 255, 255]
+      "frame": "rgb(222, 225, 229)",
+      "toolbar": "rgb(255, 255, 255)",
+      "bookmark_text": "rgb(74, 74, 79)",
+      "tab_background_text": "rgb(74, 74, 79)",
+
+      "tab_line": "rgb(255, 255, 255)",
+
+      "toolbar_field": "rgb(255, 255, 255)",
+      "toolbar_field_text": "rgb(12, 12, 13)",
+      "toolbar_field_border": "rgb(177, 177, 179)",
+
+      "toolbar_top_separator": "rgb(177, 177, 179)",
+      "toolbar_bottom_separator": "rgb(177, 177, 179)",
+
+      "button_background_hover": "rgb(237, 237, 240)",
+      "button_background_active": "rgb(237, 237, 240)",
+
+      "popup": "rgb(249, 249, 250)",
+      "popup_text": "rgb(12, 12, 13)",
+      "popup_highlight": "rgb(222, 225, 229)",
+      "popup_border": "rgb(215, 215, 219)",
+
+      "sidebar": "rgb(249, 249, 250)",
+      "sidebar_text": "rgb(12, 12, 13)",
+      "sidebar_highlight": "rgb(222, 225, 229)",
+      "sidebar_highlight_text": "rgb(12, 12, 13)",
+      "sidebar_border": "rgb(215, 215, 219)",
+
+      "ntp_background": "rgb(249, 249, 250)",
+      "ntp_text": "rgb(12, 12, 13)"
     }
   }
 }
